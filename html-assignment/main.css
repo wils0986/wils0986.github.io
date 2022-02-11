@@ -11,7 +11,7 @@ h1, h5 {
 
 /* Specificity: 0010 */
 .site-title {
-    color:pink;
+    color:rgb(247, 130, 212);
 }
 
 /* Specificity 0100 */
@@ -41,5 +41,5 @@ a:link, a:visited {
 /* Specificity 0011 */
 a:hover, a:active {
     text-decoration: none;
-    background:rgb(236, 120, 178)
+    background:rgb(247, 130, 212)
 }
