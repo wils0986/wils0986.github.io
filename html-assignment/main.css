@@ -16,7 +16,7 @@ h1, h5 {
 
 /* Specificity 0100 */
 #my-image {
-    box-shadow: 0px 0px 2px 1px #000000
+    box-shadow: 0px 0px 2px 1px #000000;
 }
 
 /* Specificity 0001 */
@@ -35,11 +35,11 @@ a:link, a:visited {
     border-width:2px;
     border-style:solid;
     border-color:black;
-    background:rgb(143, 208, 252)
+    background:rgb(143, 208, 252);
 }
 
 /* Specificity 0011 */
 a:hover, a:active {
     text-decoration: none;
-    background:rgb(247, 130, 212)
+    background:rgb(247, 130, 212);
 }
