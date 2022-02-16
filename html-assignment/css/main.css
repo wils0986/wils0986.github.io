@@ -5,7 +5,7 @@ body {
 }
 
 /* Specificity: 0001 */
-h1, h5 {
+header, footer {
     background: rgb(117, 81, 248);
 }
 
