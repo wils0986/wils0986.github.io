@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--contains the non-visile content of the page-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Starfish</title>
-</head>
-<body>
     
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<!--contains the visible content of the page-->
+<body>
+    <!--links to CSS .wrapper to center content on page-->
+    <div class="wrapper">
+        <img src="/images/lone-starfish-wide.jpg" alt="a birds eye view of a starfish on sand">
+        <!--the wide starish image displayed behind the header text-->
+        <header class="site-title">
+            <h1>Lone Starfish</h1>
+        </header>
+        <div class="box"></div> 
+    <!--the navigation buttons at the top of the page-->
+    <nav>
+        <ul>
+            <li class="nav-list">HOME</li>
+            <li class="nav-list">STORY</li>
+            <li class="nav-list">CONTACT</li>
+        </ul>
+    </nav>
+    <!--the section of the page with the starfish article-->
+    <main>
+        <img id="small-starfish" src="images/lone-starfish.jpg" alt="a zoomed-in birds eye view of a starfish on sand">
+            <article>
+            <h2 class="sub-title">Life of a Starfish</h2>
+             <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver.</p>
+            </article>
+        </main>
+    <!--the section listing facts about starfish-->
+    <section>
+            <h3>Facts About Starfish</h3>
+                <ul>
+                    <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+                    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+                    <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+                    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+                </ul>
+        </section>
+        <!--the section with the option to contact to learn more-->
+        <section>
+            <h3>Contact to learn more</h3>
+            <form action="nextpage.html" method="get">
+                <!--text boxes-->
+                <div>
+                    <label for="yourname">Your Name</label>
+                    <textarea id="yourname" name="yourname"></textarea>
+                </div>
+                <div>
+                    <label for="email">Your E-mail</label>
+                    <textarea id="email" name="email"></textarea>
+                </div>
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <!--buttons-->
+                <h4>Would you like to visit the starfish?</h4>
+                <div>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="visitstarfish" value="yes">
+    
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="visitstarfish" value="No">
+    
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" id="maybe" name="visitstarfish" value="maybe">
+                </div>
+                <div class="submit-button">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+           <h5>©Lone Starfish.</h5> 
+        </footer>
+    </div>
 </body>
 </html>
