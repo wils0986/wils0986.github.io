@@ -7,6 +7,18 @@ body {
     color: black;
 }
 
+/* centers the content vertically on the page */
+.wrapper {
+    height: 1800px;
+    top: -8px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(212,233,231);
+    padding-top: 0px;
+    position: relative;
+}
+
+/* header image */
 #wide-starfish {
     width: 100%;
 }
@@ -28,12 +40,30 @@ body {
 nav ul li {
     padding-left: 75px;
     padding-right: 50px;
+    font-size: 1.75rem;
     text-align: center;
     display: inline;
     margin: 50px;
     border-right: 2px solid black;
     border-left: 2px solid black;
   }
+
+
+/* custom border sides in navigation */
+  nav ul li:nth-child(1) {
+    border-left: none;
+    padding: 0px 100px 0px 100px;
+}
+
+nav ul li:nth-child(2) {
+    border-style: none;
+    padding: 0px;
+}
+
+nav ul li:nth-child(3) {
+    border-right: none;
+    padding: 0px 50px 0px 100px;
+}
 
 /* intro to article section */
 .sub-title {
@@ -42,51 +72,44 @@ nav ul li {
     width: 100px;
     height: 100px;
     top: 10px;
-    left: -430px;
+    left: -330px;
     font-size: 2.5rem;
 }
  
-/* centers the content vertically on the page */
-.wrapper {
-    height: 1990px;
-    top: -8px;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: rgb(212,233,231);
-    padding-top: 0px;
-    position: relative;
-}
 
-
+/* image with text wrapping around */
 #small-starfish {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
     padding-top: 60px;
     float: left;
 }
 
+
 p {
-    padding: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
     padding-bottom: 10px;
 }
 
+/* customized h3 font */
 section h3 {
     font-size: 2rem;
     padding-left: 10px;
 }
-/* removing default bullets from facts about starfish points */
+
+/* removes default bullets from facts about starfish points */
 section ul li {
     padding-left: 10px;
     list-style-type: none;
 }
 
-/* adding solid circle bullets to facts about starfish points */
+/* adds solid circle bullets to facts about starfish points */
 section ul li::before {
     content: "•"; 
     color: black;
-    padding-right: 10px;
-    
+    padding-right: 10px; 
 }
 
 /* the section containing the text boxes and buttons */
@@ -99,12 +122,11 @@ form {
     border-color: black;
 }
 
-
 /* the spacing between text boxes */
 input, textarea {
-    margin-bottom: 1.25rem;
-    
+    margin-bottom: 1.25rem;   
 }
+
 
 footer {
     padding-top: 30px;
@@ -115,28 +137,17 @@ footer {
 
 
 button:link, a:visited {
-    background-color:rgb(170,212,207);
-}
-
-button, a:active {
-    background-color: rgb(170,212,207);
-    border: 2px;
+    background-color: rgb(212,233,231);
+    border: 2px solid black;
     padding: 15px;
 }
 
-nav ul li:nth-child(1) {
-    border-left: none;
-    padding-right: 100px;
+button, a:active {
+    background-color: rgb(212,233,231);
+    border: 2px solid black;
+    padding: 15px;
 }
 
-nav ul li:nth-child(2) {
-    border-style: none;
-}
-
-nav ul li:nth-child(3) {
-    border-right: none;
-    padding-left: 100px;
-}
 
 label {
     margin: 10px;
@@ -145,7 +156,12 @@ label {
 
 textarea {
     margin: 10px 10px;
-    width: 800px;
+    width: 925px;
+}
+
+#message {
+    height: 100px;
+    width: 925px;
 }
 
 h2 {
