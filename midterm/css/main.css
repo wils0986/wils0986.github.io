@@ -7,6 +7,10 @@ body {
     color: black;
 }
 
+#wide-starfish {
+    width: 100%;
+    z-index: 1;
+}
 
 /* the section of text at the top of the page */
 .site-title {
@@ -42,12 +46,7 @@ nav ul li {
     left: -430px;
     font-size: 2.5rem;
 }
-
-img {
-    width: 100%;
-    z-index: 1;
-}
-
+ 
 /* centers the content vertically on the page */
 .wrapper {
     height: 1990px;
@@ -77,13 +76,13 @@ section h3 {
     font-size: 2rem;
     padding-left: 10px;
 }
-
+/* removing default bullets from facts about starfish points */
 section ul li {
     padding-left: 10px;
     list-style-type: none;
 }
 
-
+/* adding solid circle bullets to facts about starfish points */
 section ul li::before {
     content: "•"; 
     color: black;
