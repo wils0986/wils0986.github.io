@@ -50,7 +50,7 @@ nav ul li {
 
 
 /* custom border sides in navigation */
-  nav ul li:nth-child(1) {
+nav ul li:nth-child(1) {
     border-left: none;
     padding: 0px 100px 0px 100px;
 }
