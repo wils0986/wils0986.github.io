@@ -9,7 +9,7 @@ body {
 
 /* centers the content vertically on the page */
 .wrapper {
-    height: 1715px;
+    height: 1780px;
     top: -8px;
     max-width: 1000px;
     margin: 0 auto;
@@ -21,19 +21,20 @@ body {
 /* header image */
 #wide-starfish {
     width: 100%;
+    padding-bottom: 15px;
 }
 
 /* the section of text at the top of the page */
 .site-title {
     position: relative;
-    top: -175px;
+    top: -165px;
     text-align: center;
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 1.25;
     font-weight: lighter;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 /* navigation bar */
@@ -71,9 +72,9 @@ nav ul li:nth-child(3) {
     display: inline;
     width: 100px;
     height: 100px;
-    top: 10px;
+    top: -10px;
     left: -330px;
-    font-size: 2.5rem;
+    font-size: 2.65rem;
 }
  
 
@@ -92,6 +93,8 @@ p {
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* customized h3 font */
@@ -105,6 +108,8 @@ section ul li {
     line-height: 1.25rem;
     padding-left: 15px;
     list-style-type: none;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 /* adds solid circle bullets to facts about starfish points */
@@ -118,6 +123,7 @@ section ul li::before {
 form {
     margin: 10px;
     padding: 10px;
+    padding-top: 30px;
     padding-left: 10px;
     margin-left: 15px;
     margin-bottom: 20px;
@@ -170,6 +176,7 @@ textarea {
 
 h2 {
     padding-bottom: 10px;
+    font-weight: 400;
 }
 
 h3 {
@@ -182,6 +189,7 @@ h4 {
 }
 
 .submit-button {
+    padding-bottom: 10px;
     padding-left: 10px;
 
 }
