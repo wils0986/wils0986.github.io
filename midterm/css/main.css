@@ -25,7 +25,7 @@ body {
     padding-bottom: 15px;
 }
 
-/* the section of text at the top of the page */
+/* the site title positioned over the header image */
 .site-title {
     position: relative;
     top: -165px;
