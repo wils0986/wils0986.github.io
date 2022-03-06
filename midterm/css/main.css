@@ -206,10 +206,26 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* spacing on left of all h4 elements */
+/* spacing of all h4 elements */
 h4 {
     margin: 10px;
     padding-bottom: 10px;
+}
+
+/* spacing between raidio buttons and labels */
+#yes {
+    margin-right: -5px;
+    margin-left: 0px;
+}
+
+#no {
+    margin-right: -5px;
+    margin-left: 0px;
+}
+
+#maybe {
+    margin-right: -5px;
+    margin-left: 0px;
 }
 
 /* spacing around submit button */
@@ -235,20 +251,4 @@ footer {
 nav ul {
     position: absolute;
     top: 340px;
-}
-
-/* spacing between raidio buttons and labels */
-#yes {
-    margin-right: -5px;
-    margin-left: 0px;
-}
-
-#no {
-    margin-right: -5px;
-    margin-left: 0px;
-}
-
-#maybe {
-    margin-right: -5px;
-    margin-left: 0px;
 }
