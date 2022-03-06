@@ -10,9 +10,9 @@ body {
 
 /* contains the content vertically on the page */
 .wrapper {
-    height: 1790px;
+    height: 1770px;
     top: -8px;
-    max-width: 1000px;
+    max-width: 1020px;
     margin: 0 auto;
     background-color: rgb(212,233,231);
     padding-top: 0px;
@@ -116,6 +116,7 @@ nav ul li:nth-child(3) {
 /* paragraph wrapping around image */
 p {
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 2px;
     padding-bottom: 10px;
     font-size: 1rem;
@@ -233,7 +234,7 @@ h4 {
     padding-bottom: 10px;
     padding-left: 10px;
     border: 2px solid black;
-    margin-right: 865px;
+    margin-right: 885px;
     margin-left: 10px;
     padding: 2px;
 }
