@@ -8,7 +8,7 @@ body {
     color: black;
 }
 
-/* centers the content vertically on the page */
+/* contains the content vertically on the page */
 .wrapper {
     height: 1790px;
     top: -8px;
