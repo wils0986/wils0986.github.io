@@ -43,11 +43,37 @@ nav ul li {
     padding-left: 75px;
     padding-right: 50px;
     font-size: 1.75rem;
+    color: black;
     text-align: center;
     display: inline;
     margin: 50px;
     border-right: 2px solid black;
     border-left: 2px solid black;
+  }
+
+  /* custom navigation bar links */
+  a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
   }
 
 /* custom border sides in navigation */
@@ -146,14 +172,14 @@ input, textarea {
 /* submit button when clicked */
 button:link, a:visited {
     background-color: rgb(212,233,231);
-    border: 2px solid black;
+    border: none;
     padding: 15px;
 }
 
 /* submit button in regular state */
 button, a:active {
     background-color: rgb(212,233,231);
-    border: 2px solid black;
+    border: none;
     padding: 15px;
 }
 
@@ -190,6 +216,10 @@ h4 {
 .submit-button {
     padding-bottom: 10px;
     padding-left: 10px;
+    border: 2px solid black;
+    margin-right: 865px;
+    margin-left: 10px;
+    padding: 2px;
 }
 
 /* sizing and positioning of footer text */
