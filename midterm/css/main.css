@@ -93,7 +93,6 @@ p {
     padding-top: 2px;
     padding-bottom: 10px;
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 0px;
 }
 
@@ -114,7 +113,6 @@ section ul li {
     line-height: 1.25rem;
     padding-left: 15px;
     list-style-type: none;
-    font-weight: bold;
     font-size: 1rem;
 }
 
