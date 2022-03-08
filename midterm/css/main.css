@@ -3,7 +3,6 @@ body {
     background-color: rgb(170,212,207);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
-    font-weight: bold;
     line-height: 1.5;
     color: black;
 }
@@ -28,7 +27,7 @@ body {
 /* the site title positioned over the header image */
 .site-title {
     position: relative;
-    top: -165px;
+    top: -167px;
     text-align: center;
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,8 +46,6 @@ nav ul li {
     text-align: center;
     display: inline;
     margin: 50px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
   }
 
   /* custom navigation bar links */
@@ -79,6 +76,7 @@ nav ul li {
 /* custom border sides in navigation */
 nav ul li:nth-child(1) {
     border-left: none;
+    border-right: 1px solid black;
     padding: 0px 100px 0px 100px;
 }
 
@@ -89,6 +87,7 @@ nav ul li:nth-child(2) {
 
 nav ul li:nth-child(3) {
     border-right: none;
+    border-left: 1px solid black;
     padding: 0px 50px 0px 100px;
 }
 
@@ -100,7 +99,7 @@ nav ul li:nth-child(3) {
     height: 100px;
     top: -10px;
     left: -330px;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
  
 /* image with text wrapping around */
@@ -252,5 +251,5 @@ footer {
 /* positioning of navigation bar */
 nav ul {
     position: absolute;
-    top: 340px;
+    top: 338px;
 }
