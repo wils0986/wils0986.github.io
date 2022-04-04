@@ -9,38 +9,36 @@
 </head>
 <body>
     <div class="wrapper">
-        <section>
-        <!--the navigation links at the top of the page-->
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <!---the Search bar-->
-            <div class="search-bar">
-                <input type="text" placeholder="Search">
-            </div>
-        </section>
+    <!--the navigation links at the top of the page-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!---the Search bar-->
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
         <!--the Welcome section-->
-        <section>
-            <header class="site-title">
+        <section class="welcome-title">
+            <header>
                 <h1>Welcome to Three Star Media</h1>
             </header>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium reiciendis cupiditate debitis consectetur quaerat quam ratione, reprehenderit esse, vel accusamus itaque minima vitae suscipit nulla et labore. Ipsa, hic.</p>
             <a href="connectwithus">Connect with us</a>
         </section>
         <!--the About Us section-->
-        <section>
+        <section class="about-us">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, provident veniam. Cum et quasi magni cupiditate at perspiciatis debitis maiores recusandae. Libero assumenda ea nobis excepturi deleniti officia culpa vero!</p>
             <p>Debitis laborum incidunt aspernatur expedita deleniti similique dolores qui quibusdam. Sapiente itaque quasi temporibus modi magnam quam odit doloremque ab adipisci at iure tempore beatae, cum facilis quae quas molestiae!</p>
         </section>
         <!--the Our Services section-->
-        <section>
+        <section class="our-services">
             <h2>Our Services</h2>
             <h3>Digital Transformation</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam corporis veritatis impedit aliquam praesentium, sequi laborum omnis, nesciunt cumque illum quas necessitatibus in dolore, enim at fuga! Excepturi, consectetur!</p>
@@ -58,45 +56,46 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nobis placeat vero labore praesentium inventore blanditiis rem, quis exercitationem molestias ipsam, alias at illo esse deleniti recusandae expedita nam accusantium.</p>
             <a href="printplans">Print Plans</a>
         </section>
-    
-    <!---the Our Vision section-->
-        <div class="vision-wrapper">
-            <section>
-                <h3>Our Vision</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis architecto sint facere corrupti aliquid sed sequi quia placeat! Corrupti velit libero, hic deleniti tempora nisi nam possimus quibusdam excepturi.</p>
-                <a href="learnmore">Learn More</a>
-            </section>
-        </div>
-    <!---the Our Team section-->
-    <section>
-        <h2>Our Team</h2>
-        <h3>John Doe</h3>
-        <h4>CEO and Co-owner</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error beatae ut totam saepe quo voluptatibus enim repudiandae accusantium repellat a? Dolor, beatae. Inventore commodi dolore vitae nesciunt, harum aperiam vel.</p>
-        <h3>Bob Rite</h3>
-        <h4>CFO and Co-owner</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam odio ab, sapiente dolor quae eaque fugit quisquam? Aut id voluptas magni exercitationem amet repudiandae voluptatibus corporis illum laudantium recusandae.</p>
-    </section>
-    <!---the Contact Us section-->
-        <section>
+        <!---the Our Vision section-->
+        <section class="our-vision">   
+            <h3>Our Vision</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis architecto sint facere corrupti aliquid sed sequi quia placeat! Corrupti velit libero, hic deleniti tempora nisi nam possimus quibusdam excepturi.</p>
+            <a href="learnmore">Learn More</a>
+        </section>
+        <!---the Our Team section-->
+        <section class="our-team">
+            <h2>Our Team</h2>
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error beatae ut totam saepe quo voluptatibus enim repudiandae accusantium repellat a? Dolor, beatae. Inventore commodi dolore vitae nesciunt, harum aperiam vel.</p>
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam odio ab, sapiente dolor quae eaque fugit quisquam? Aut id voluptas magni exercitationem amet repudiandae voluptatibus corporis illum laudantium recusandae.</p>
+        </section>
+        <!---the Contact Us section-->
+        <section class="contact-us">
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
-            <div>
-                <label for="fullname">Full Name</label>
-                <textarea id="fullname" name="fullname"></textarea>
-            </div>
-            <div>
-                <label for="email">E-mail</label>
-                <textarea id="email" name="email"></textarea>
-            </div>
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" name="message"></textarea>
-            </div>
-            <div class="submit-button">
-                <button type="submit">Send</button>
-            </div>
+            <form action="nextpage.html" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <textarea id="fullname" name="fullname"></textarea>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <textarea id="email" name="email"></textarea>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
         <!---the Hours of operation table and map-->
+        <section class="hours-table">
             <h3>Hours of operation</h3>
             <table>
                 <tr>
@@ -112,15 +111,20 @@
                 <td>Closed</td>
                 </tr>
             </table>
+        </section>
+        <section class="location">
             <h2>Location</h2>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d722140.7617836512!2d-76.53414967093555!3d45.00741709605088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648560898499!5m2!1sen!2sca"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2871239.4010873!2d-75.754937!3d45.349928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648847873453!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
+        <!---the footer section-->
+        <section class="footer-wrapper">
+            <footer>
+                <h5>© Copyright Three Star Media, 2020.</h5> 
+                <h5>All images are taken from Unsplash</h5>
+            </footer>
+        </section>
     </div>
-    <footer>
-        <h5>© Copyright Three Star Media, 2020.</h5> 
-        <h5>All images are taken from Unsplash</h5>
-    </footer>
 </body>
 </html>
