@@ -5,154 +5,183 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final Project - wils0986</title>
+    <link href="css/reset.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/71d7f4f2d7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    
 </head>
 <body>
-    <div class="wrapper">
     <!--the navigation links at the top of the page-->
-        <img id="stars" src="images/logo.png" alt="three stars">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <!---the Search bar-->
-        <div class="search-bar">
-            <input type="text" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+    <div class="top-banner">
+    <div class="wide-wrapper">
+            <img id="stars" src="images/logo.png" alt="three stars">
+            <div class="box-1"></div>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="home">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            <!---the Search bar-->
+            <div class="search-bar">
+               <form class="search-button" action="input">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               </form>
+            </div>
         </div>
+    </div>
         <!--the Welcome section-->
-        <img id="welcome" src="images/main-banner.jpg" alt="photo of indoor office space">
-        <section class="welcome-title">
-            <header>
-                <h1>Welcome to Three Star Media</h1>
-            </header>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laudantium reiciendis cupiditate debitis consectetur quaerat quam ratione, reprehenderit esse, vel accusamus itaque minima vitae suscipit nulla et labore. Ipsa, hic.</p>
-            <a href="connectwithus">Connect with us</a>
-        </section>
+        <div class="wide-wrapper">
+            <div class="welcome">
+                    <div class="grey-box">
+                    <h1 class="white-text">Welcome to Three Star Media</h1>
+                    <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, provident veniam. Cum et quasi magni cupiditate at perspiciatis debitis maiores recusandae. Libero assumenda ea nobis excepturi deleniti officia culpa vero!</p>
+                    <a href="connectwithus" class="connect-with-us">Connect with us</a>
+                    <i class="fa-solid fa-caret-right" id="connect-caret"></i></div>
+            </div>
+        </div>
         <!--the About Us section-->
-        <section class="about-us">
-            <img id="about" src="images/about-us.jpg" alt="a photo of a ping-pong table">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, provident veniam. Cum et quasi magni cupiditate at perspiciatis debitis maiores recusandae. Libero assumenda ea nobis excepturi deleniti officia culpa vero!</p>
-            <p>Debitis laborum incidunt aspernatur expedita deleniti similique dolores qui quibusdam. Sapiente itaque quasi temporibus modi magnam quam odit doloremque ab adipisci at iure tempore beatae, cum facilis quae quas molestiae!</p>
-        </section>
+            <section class="about-us">
+            <div class="narrow-wrapper">
+                <img class="responsive-images" src="images/about-us.jpg" alt="a photo of a ping-pong table"></div>
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, provident veniam. Cum et quasi<br> magni cupiditate at perspiciatis debitis maiores recusandae. Libero assumenda ea nobis excepturi<br> deleniti officia culpa vero!</p>
+                <p>Debitis laborum incidunt aspernatur expedita deleniti similique dolores qui quibusdam. Sapiente<br> itaque quasi temporibus modi magnam quam odit doloremque ab adipisci at iure tempore beatae,<br> cum facilis quae quas molestiae!</p>
+            </section>
         <!--the Our Services section-->
-        <section class="our-services">
-            <div>
-                <h2>Our Services</h2>
-                <img id="services" src="images/digital.jpg" alt="a photo of a cellphone screen and a desktop screen">
-                <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam corporis veritatis impedit aliquam praesentium, sequi laborum omnis, nesciunt cumque illum quas necessitatibus in dolore, enim at fuga! Excepturi, consectetur!</p>
-                <a href="digitalplans">Digital Plans</a>
+        <div class="our-services">
+            <h2 class="services">Our Services</h2>
+                <div class="digital">
+                    <div class="wrapper-1">
+                        <img class="responsive-images" src="images/digital.jpg" alt="a photo of a laptop screen and a cell phone screen">
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illum distinctio sed, adipisci hic earum itaque aperiam, placeat deleniti, facere atque saepe recusandae. Sapiente reprehenderit dolorem cumque harum minus repellat.</p>
+                        <a href="digitalplans" class="digital-plans">Digital Plans</a>
+                        <i class="fa-solid fa-caret-right" id="digital-caret"></i>
+                    </div>
+                </div>
+                <div class="marketing">
+                    <div class="wrapper-2">
+                        <img class="responsive-images" src="images/marketing.jpg" alt="a photo of a laptop screen">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illum distinctio sed, adipisci hic earum itaque aperiam, placeat deleniti, facere atque saepe recusandae. Sapiente reprehenderit dolorem cumque harum minus repellat.</p>
+                        <a href="marketingplans" class="marketing-plans">Marketing Plans</a>
+                        <i class="fa-solid fa-caret-right" id="marketing-caret"></i>
+                    </div>
+                </div>
+            <div class="video">
+                <div class="wrapper-3">
+                    <img class="responsive-images" src="images/video.jpg" alt="a photo of a YouTube video">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illum distinctio sed, adipisci hic earum itaque aperiam, placeat deleniti, facere atque saepe recusandae. Sapiente reprehenderit dolorem cumque harum minus repellat.</p>
+                    <a href="videoplans" class="video-plans">Video Plans</a>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
             </div>
-            <div>
-                <img id="marketing" src="images/marketing.jpg" alt="a photo of a laptop">
-                <h3>Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi placeat nam adipisci. Quidem delectus obcaecati nemo in quibusdam neque, ex aliquam exercitationem ratione, iste ut? Dicta quisquam magnam cupiditate sed.</p>
-                <a href="marketingplans">Marketing Plans</a>
+            <div class="web">
+                <div class="wrapper-4">
+                    <img class="responsive-images" src="images/web.jpg" alt="a photo of a cellphone on grid paper">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ex hic sed unde assumenda sit laudantium architecto numquam, nobis modi nulla asperiores facilis repellat veniam doloribus eius eos accusamus temporibus.</p>
+                    <a href="webplans" class="web-plans">Web Plans</a>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
             </div>
-            <div>
-                <img id="video" src="images/video.jpg" alt="a photo of a YouTube video">
-                <h3>Video Production</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illum distinctio sed, adipisci hic earum itaque aperiam, placeat deleniti, facere atque saepe recusandae. Sapiente reprehenderit dolorem cumque harum minus repellat.</p>
-                <a href="videoplans">Video Plans</a>
+            <div class="print">
+                <div class="wrapper-5">
+                    <img class="responsive-images" src="images/print.jpg" alt="a photo of newspaper stands on a sidewalk">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nobis placeat vero labore praesentium inventore blanditiis rem, quis exercitationem molestias ipsam, alias at illo esse deleniti recusandae expedita nam accusantium.</p>
+                    <a href="printplans" class="print-plans">Print Plans</a>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
             </div>
-            <div>
-                <img id="web" src="images/web.jpg" alt="a photo of a cellphone on grid paper">
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ex hic sed unde assumenda sit laudantium architecto numquam, nobis modi nulla asperiores facilis repellat veniam doloribus eius eos accusamus temporibus.</p>
-                <a href="webplans">Web Plans</a>
-            </div>
-            <div>
-                <img id="print" src="images/print.jpg" alt="a photo of newspaper stands on a sidewalk">
-                <h3>Print</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nobis placeat vero labore praesentium inventore blanditiis rem, quis exercitationem molestias ipsam, alias at illo esse deleniti recusandae expedita nam accusantium.</p>
-                <a href="printplans">Print Plans</a>
-            </div>
-        </section>
+        </div>   
         <!---the Our Vision section-->
-        <img id="vision" src="images/vision.jpg" alt="a photo of paper boats"> 
         <section class="our-vision">  
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis architecto sint facere corrupti aliquid sed sequi quia placeat! Corrupti velit libero, hic deleniti tempora nisi nam possimus quibusdam excepturi.</p>
-            <a href="learnmore">Learn More</a>
+            <a href="learnmore" class="learn-more">Learn More</a>
+            <i class="fa-solid fa-caret-right" id="learn-caret"></i>
         </section>
         <!---the Our Team section-->
-        <section class="our-team">
-            <div>
-                <h2>Our Team</h2>
-                <img id="john" src="images/john.jpg" alt="a headshot of John">
-                <h3>John Doe</h3>
-                <h4>CEO and Co-owner</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error beatae ut totam saepe quo voluptatibus enim repudiandae accusantium repellat a? Dolor, beatae. Inventore commodi dolore vitae nesciunt, harum aperiam vel.</p>
-            </div>
-            <div>
-                <img id="bob" src="images/bob.jpg" alt="a headshot of Bob">
-                <h3>Bob Rite</h3>
-                <h4>CFO and Co-owner</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam odio ab, sapiente dolor quae eaque fugit quisquam? Aut id voluptas magni exercitationem amet repudiandae voluptatibus corporis illum laudantium recusandae.</p>
-            </div>
-        </section>
+            <div class="narrow-wrapper">
+                <h2 class="our-team">Our Team</h2>
+                <img class="wrapper-6" src="images/john.jpg" alt="a headshot of John"></div>
+                <div class="wrapper-7"> 
+                    <h3 class="team-names">John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error beatae ut totam saepe quo voluptatibus enim repudiandae accusantium repellat a? Dolor, beatae. Inventore commodi dolore vitae nesciunt, harum aperiam vel.</p>
+                </div>
+            <div class="narrow-wrapper">
+            <img class="wrapper-8" src="images/bob.jpg" alt="a headshot of Bob"></div>
+                <div class="wrapper-9">
+                    <h3 class="team-names">Bob Rite</h3>
+                    <h4>CFO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam odio ab, sapiente dolor quae eaque fugit quisquam? Aut id voluptas magni exercitationem amet repudiandae voluptatibus corporis illum laudantium recusandae.</p>
+        
+                </div>
         <!---the Contact Us section-->
-        <section class="contact-us">
+        <div class="contact-us">
+        <div class="narrow-wrapper">
             <h2>Contact Us</h2>
-            <h3>Send us a message</h3>
-            <form action="nextpage.html" method="get">
-                <div>
-                    <label for="fullname">Full Name</label>
-                    <textarea id="fullname" name="fullname"></textarea>
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <textarea id="email" name="email"></textarea>
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
-                </div>
-                <div class="submit-button">
-                    <button type="submit">Send</button>
-                </div>
-            </form>
-        </section>
-        <!---the Hours of operation table and map-->
-        <section class="hours-table">
-            <h3>Hours of operation</h3>
-            <table>
-                <tr>
-                <th>Days</th>
-                <th>Hours</th>
-                </tr>
-                <tr>
-                <td>Monday - Friday</td>
-                <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                <td>Saturday - Sunday</td>
-                <td>Closed</td>
-                </tr>
-            </table>
-        </section>
-        <section class="location">
-            <h2>Location</h2>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2871239.4010873!2d-75.754937!3d45.349928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648847873453!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form class="send-message">
+                    <h3>Send us a message</h3>
+                        <div>
+                            <label for="fullname">Full Name</label>
+                            <textarea id="fullname" name="fullname"></textarea>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <textarea id="email" name="email"></textarea>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="submit-button">Send</button>
+                        </div>
+                </form>
             </div>
-        </section>
+        </div>    
+        <!---the Hours of operation table and map-->
+        <div class="narrow-wrapper">
+            <div class="hours-of-op">
+                <h3>Hours of operation</h3>
+                    <table>
+                        <tr>
+                        <th class="days">Days</th>
+                        <th class="hours">Hours</th>
+                        </tr>
+                        <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="location">
+                <h3>Location</h3>
+                <iframe class="responsive-images" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2871239.4010873!2d-75.754937!3d45.349928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648847873453!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+            </div>
+        </div>
         <!---the footer section-->
-        <section class="footer-wrapper">
-            <footer>
-                <h5>© Copyright Three Star Media, 2020.</h5> 
-                <h5>All images are taken from Unsplash</h5>
-            </footer>
-        </section>
+    <div class="footer-banner">
+    <div class="wide-wrapper">
+        <footer>
+            <h5>© Copyright Three Star Media, 2020.</h5> 
+            <h6>All images are taken from <span>Unsplash</span></h6>
+        </footer>
+    </div>
     </div>
 </body>
 </html>
