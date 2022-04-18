@@ -1,3 +1,4 @@
+/* general parameters for the entire document */
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -9,158 +10,40 @@ html {
     font-family:'Open Sans', 'Helvetica Neue', sans-serif;
     max-width: 1200px;
     margin: 0 auto;
-    
-    
 }
 
 body {
     padding:0; 
     margin:0;
-    
 }
 
 /* responsive images container */
 .responsive-images {
     width: 100%;
     height: auto;
-    
 }
 
-/* responsive image code, needs parent with size set */
+/* responsive image code; needs parent with size set */
 div.wrapper {
     margin: 0.8rem;
     width: 100%;
     height: auto; 
 }
 
-
 .wide-wrapper {
     display: block;
     position: relative;
     margin: 0 auto;
     width: 100%;
-
 }
 
 .narrow-wrapper {
     max-width: 96%;
     margin: 0 auto;
     padding-top: 20px;
-
-    
-    
 }
 
-/* header image */
-#stars {
-    width: 100px;
-    height: 100px;
-    padding-top: 20px;
-    padding-left: 15px;
-    float: left;
-}
-
-.welcome {
-    display: block;
-    position: relative;
-    background-image: url("../images/main-banner.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-content: center;
-    height: 620px;
-    padding-top: 100px;
-    padding-bottom: 20px;
-    color: #fff;
-}
-
-.grey-box {
-    position: absolute;
-    background-color:rgba(14, 1, 0, .50);
-    width: 100%;
-}
-
-h1 {
-    font-size: 5rem;
-    padding: 30px;
-    padding-bottom: 0px;
-    line-height: 130px;
-}
-
-h2 {
-    font-size: 3rem;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-h3 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    padding-top: 30px;
-}
-
-/* spacing of "our team" names/titles, underline parameters */
-h4 {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 10px;
-    border-bottom:#c78c06 solid 3px;
-}
-
-h5 {
-    font-size: 1.2rem;
-    padding-left: 10px;
-    padding-top: 30px;
-    margin-bottom: 10px;
-    color:#c78c06;
-}
-h6 {
-    font-size: 1.2rem;
-    padding-left: 10px;
-    padding-top: 20px;
-    margin-bottom: 10px;
-    color:#c78c06;
-}
-
-
-p {
-    padding: 20px;
-    margin: 0px;
-    line-height: 30px;
-    background-color: none;
-}
-
-.white-text {
-    color: #fff;
-    position: relative;
-    margin-bottom: 0px;
-    padding-left: 20px;
-}
-
-
-
-.connect-with-us {
-    display: flex;
-    position: relative;
-    text-align: center;
-    width: 230px;
-    color: #222;
-    text-decoration: none;
-    font-size: 1.5rem;
-    left: 20px;
-    margin-right: 500px;
-    padding-left: 30px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #c78c06;
-}
-
-#connect-caret {
-    top: -72px;
-}
-
-/* navigation bar */
+/* navigation bar parameters */
 nav ul li {
     list-style-type: none;
     line-height: 100px;
@@ -179,6 +62,44 @@ a.home {
     color: #222;
 }
 
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    width: 100%;
+}
+
+/* company logo next to the navigation bar */
+#stars {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 15px;
+    float: left;
+}
+
+
+/* top banner of orange in mobile layout */
+.box-1 {
+    height: 200px;
+    width: 100%;
+    background-color:#c78c06;
+}
+
+/* dark banner */
+.top-banner {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #222;
+    width: 100%;
+    height: 700px;
+    border: #222 20px solid;
+}
+
+/*search bar parameters */
 .search-bar {
     display: inline;
     position: relative;
@@ -203,6 +124,7 @@ form.search-button {
     align-content: center;
 }
 
+/* magnifying glass icon */
 .fa-magnifying-glass {
     display: inline;
     position: absolute;
@@ -213,37 +135,121 @@ form.search-button {
     font-size: 1.75rem;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 2rem;
-    width: 100%;
-}
 
-.top-banner {
+/* photo, grey box, content for "welcome" */
+.welcome {
     display: block;
     position: relative;
-    box-sizing: border-box;
-    background-color: #222;
-    width: 100%;
-    height: 700px;
-    border: #222 20px solid;
-    
+    background-image: url("../images/main-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    height: 620px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #fff;
 }
 
-.box-1 {
-    height: 200px;
+/* background to "welcome" area */
+.grey-box {
+    position: absolute;
+    background-color:rgba(14, 1, 0, .50);
     width: 100%;
-    background-color:#c78c06;
 }
 
+/* base parameters for the headings and paragraphs */
+h1 {
+    font-size: 5rem;
+    padding: 30px;
+    padding-bottom: 0px;
+    line-height: 130px;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    border-bottom:#c78c06 solid 3px;
+}
+
+h5 {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    color:#c78c06;
+}
+h6 {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    color:#c78c06;
+}
+
+p {
+    padding: 20px;
+    margin: 0px;
+    line-height: 30px;
+}
+
+/* parameters for "welcome" paragraph */
+.white-text {
+    color: #fff;
+    position: relative;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+/* button for "connect with us" */
+.connect-with-us {
+    display: flex;
+    position: relative;
+    text-align: center;
+    width: 230px;
+    color: #222;
+    text-decoration: none;
+    font-size: 1.5rem;
+    left: 20px;
+    margin-right: 500px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #c78c06;
+}
+
+/* parameters for "connect with us" caret icon */
+.fa-caret-right {
+    display: flex;
+    position: relative;
+    padding-top: 5px;
+    font-size: 2rem;
+    color: #222;
+    top: -72px;
+    left: 240px;
+}
+
+
+
+/* parameters for "about us" area */
 .about-us {
     display: block;
     position: relative;
     background-color:#ffe6ac;
-    
 }
 
 h2.about {
@@ -253,19 +259,7 @@ h2.about {
     background-color:#ffe6ac;
 }
 
-
-
-.fa-caret-right {
-    display: flex;
-    position: relative;
-    padding-top: 5px;
-    font-size: 2rem;
-    color: #222;
-    top: -77px;
-    left: 240px;
-    
-}
-
+/* parameters for "our services" area */
 .wrapper-1, .wrapper-2, .wrapper-3, .wrapper-4, .wrapper-5 {
     background-color: #ffe6ac;
     width: 96%;
@@ -274,14 +268,13 @@ h2.about {
     margin-bottom: 20px;
 }
 
-
 h2.services {
     margin-left: 20px;
     margin-top: 40px;
     
 }
 
-
+/* "our services" buttom parameters */
 .our-services button {
     display: flex;
     position: relative;
@@ -299,28 +292,26 @@ h2.services {
     margin-left: 200px;
 }
 
+/* "markteting" button positioning */
 .big-button {
    margin-left: 190px;
-    
 }
 
-
+/* removes the underline from links of "our services" buttons */
 a:link {
     text-decoration: none;
 }
 
+/* positioning of "digital, marketing" caret icons */
 #digital-caret {
     padding-left: 20px;
 }
 
-
-
 #marketing-caret {
     padding-left: 70px;
-    
 }
 
-
+/* parameters for white caret icons */
 .our-services .fa-caret-right {
     display: flex;
     position: relative;
@@ -330,8 +321,7 @@ a:link {
     color: #fff;
 }
 
-
-
+/* "our vision" banner parameters */
 .our-vision {
     display: block;
     position: relative;
@@ -345,45 +335,7 @@ a:link {
     height: 300px;
 }
 
-.our-team {
-    margin-top: 30px;
-    margin-left: 20px;
-    
-}
-
-.hours-of-op {
-    max-width: 92%;
-    margin: 0 auto;
-}
-
-/* adjusts the position based on the specified h3 properties */
-.team-names {
-    margin-top: -5px;
-    padding-top: 10px;
-    padding-left: 20px;
-}
-
-.team {
-    max-width: 96%;
-    margin: 0 auto;
-    padding-top: 20px;
-    margin-left: 30px;
-}
-
-.wrapper-6, .wrapper-8 {
-    width: 96%;
-    margin: 0 auto;
-}
-
-.wrapper-7, .wrapper-9 {
-    margin: 0 auto;
-    max-width: 96%;
-    margin-left: 0px;
-    position: center;
-    background-color:#ffe6ac;
-    margin-bottom: 20px;
-}
-
+/* "learn more" button parameters */
 .learn-more {
     display: flex;
     position: relative;
@@ -399,6 +351,7 @@ a:link {
     background-color: rgba(0, 20, 40, .50)
 }
 
+/* "learn more" caret parameters */
 #learn-caret {
     display: flex;
     position: relative;
@@ -408,50 +361,78 @@ a:link {
     top: -65px;
 }
 
+/* "our team" area parameters */
+.team {
+    max-width: 96%;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+/* "our team" heading positioning */
+.our-team {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* positioning of "team names" */
+.team-names {
+    margin-top: -5px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+/* parameters for images of John and Bob */
+.wrapper-6, .wrapper-8 {
+    width: 96%;
+    margin: 0 auto;
+}
+
+/* parameters for "team" info */
+.wrapper-7, .wrapper-9 {
+    margin: 0 auto;
+    max-width: 96%;
+    margin-left: 0px;
+    background-color:#ffe6ac;
+    margin-bottom: 20px;
+}
+
+/* positioing of "contact" headings */
 .send-message h3 {
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
+/* parameters for "location" area */
 .location h3 {
     padding-left: 0px;
 }
 
-.hours-of-op h3 {
-    padding-left: 0px;
+#map {
+    width: 100%;
+    height: 363px; 
 }
 
+/* positioning of "contact" form */
 form {
     display: block;
     position: relative;
     margin-left: 0px;
 }
 
-form h3 {
-    padding-left: 0px;
-}
-
-/* spacing between text boxes */
+/*positioning of text boxes */
 input, textarea {
     margin-bottom: 1.25rem; 
     margin-left: 0px;  
 }
 
-.submit-button {
-    background-color: #222;
-    color:#c78c06;
-    font-size: 1.25rem;
-    padding: 5px;
-}
-
-
-/* sizing of first and second text boxes */
+/* sizing of first and second form text boxes */
 textarea {
     width: 100%;
     margin-top: 5px;
 }
 
-/* sizing of third text box */
+/* sizing of third form text box */
 #message {
     display: flex;
     height: 150px;
@@ -459,6 +440,25 @@ textarea {
     align-content: flex-start;
 }
 
+/* "send" button parameters */
+.submit-button {
+    background-color: #222;
+    color:#c78c06;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+/* positining of "hours of op" area */
+.hours-of-op {
+    max-width: 92%;
+    margin: 0 auto;
+}
+
+.hours-of-op h3 {
+    padding-left: 0px;
+}
+
+/* parameters for "hours of op" chart */
 table, td, th {
     border: #222 solid 1px;
     padding: 20px;
@@ -474,11 +474,7 @@ table {
     background-color: #ffe6ac;
 }
 
-#map {
-    width: 100%;
-    height: 363px; 
-}
-
+/* parameters for "footer" area */
 footer {
     background-color: #222;
     width: 100%;
@@ -486,84 +482,90 @@ footer {
     margin-top: 20px;
 }
 
+/* underlines "Unsplash" in footer text */
 span {
     text-decoration: underline;
 }
 
-
-
-
-
 /* progressive enhancement (mobile to desktop) */
 @media screen and (min-width: 760px) {
-    html {
-        font-size: 16px;
-    }
-
-    div .top-baner {
-        background-color: #222;
-    }
-
-    .wrapper {
-        width: 100%;
-    }
-
-    .digital { grid-area: grid-1; }
-    .marketing { grid-area: grid-2; }
-    .video { grid-area: grid-3; }
-    .web { grid-area: grid-4; }
-    .print { grid-area: grid-5; }
-
-    .our-services {
-        display: grid;
-        position: relative;
-        width: 100%; 
-        margin: 0 auto;
-        height: 1300px;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: 
-        "grid-1 grid-1 grid-1 grid-2 grid-2 grid-2"
-        "grid-1 grid-1 grid-1 grid-2 grid-2 grid-2"
-        "grid-3 grid-3 grid-4 grid-4 grid-5 grid-5"
-        "grid-3 grid-3 grid-4 grid-4 grid-5 grid-5"
-    }
-
-    .wrapper-6 { grid-area: grid-6; }
-    .wrapper-7 { grid-area: grid-7; }
-    .wrapper-8 { grid-area: grid-8; }
-    .wrapper-9 { grid-area: grid-9; }
-
-     .team {
-        display: grid;
-        position: center;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: 
-        "grid-6 grid-6 grid-7 grid-7"
-        "grid-6 grid-6 grid-7 grid-7"
-        "grid-9 grid-9 grid-8 grid-8"
-        "grid-9 grid-9 grid-8 grid-8"
-    }
-
-    .wrapper-6, .wrapper-7, .wrapper-8, .wrapper-9 {
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: 100%;
-    }
   
-    .wrapper-7, .wrapper-9 {
-        padding-right: 25px;
+    /* parameters for navigation area adjustments */
+    div.top-banner {
+        height: 200px;
+    }
+
+    #stars {
+        margin-left: 75px;
     }
     
+    .box-1 {
+        display: inline;
+    }
+
+    a.home {
+        background-color:#c78c06;
+        padding-left: 20px;
+        line-height: 60px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: -30px;
+        max-width: 100%;
+    }
+
+    li {
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+   
+    .search-bar {
+        display: flex;
+        justify-content: end;
+        top: -200px;
+        padding: 10px;
+        margin-left: 100px;
+    }   
+    
+    .search-bar input {
+        display: flex;
+        justify-content: end;
+        align-content: center;
+        width: 60%;
+        height: 38px;
+        font-size: 1.25rem;
+        padding-left: 10px;
+        margin-right: 40px;
+    }   
+    
+    .fa-magnifying-glass {
+        display: flex;
+        justify-content: flex-end;
+        top: 0px;
+        left: 190px;
+        color:#c78c06;
+        padding: 7px;
+        margin-left: 0px;
+        border: 1px #c78c06 solid; 
+        font-size: 1.75rem;
+    }
+    
+    /* parameters for "welcome" area adjustments */
+    div.grey-box {
+        margin: 0 auto;
+        width: 85%;
+        margin-left: 100px;
+  }
+
+    /* parameters for "about us" area adjustments */
     #ping-pong {
         float: left;
         width: 50%;
         height: auto;
-        
         padding-bottom: 0px;
-        
     }
 
     .about-us {
@@ -589,162 +591,39 @@ span {
         padding-bottom: 10px;
     }
 
+    /* defines areas for grid for "our services" area */    
+    .digital { grid-area: grid-1; }
+    .marketing { grid-area: grid-2; }
+    .video { grid-area: grid-3; }
+    .web { grid-area: grid-4; }
+    .print { grid-area: grid-5; }
+
+    /* parameters and grid layout for "our services" area */
+    .our-services {
+        display: grid;
+        position: relative;
+        width: 100%; 
+        margin: 0 auto;
+        height: 1300px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "grid-1 grid-1 grid-1 grid-2 grid-2 grid-2"
+        "grid-1 grid-1 grid-1 grid-2 grid-2 grid-2"
+        "grid-3 grid-3 grid-4 grid-4 grid-5 grid-5"
+        "grid-3 grid-3 grid-4 grid-4 grid-5 grid-5"
+    }
+
     h2.services {
         padding-top: 10px;
         padding-left: 50px;
-        
-    }
-
-
-
-    div.grey-box {
-          margin: 0 auto;
-          width: 85%;
-          margin-left: 100px;
-    }
-        
-    div.top-banner {
-        height: 200px;
-    }
-
-    .box-1 {
-        display: inline;
-    }
-
-    a.home {
-        background-color:#c78c06;
-        padding-left: 20px;
-        line-height: 60px;
-        
-    }
-
-    ul {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        left: -30px;
-        max-width: 100%;
-        
-    }
-
-    li {
-        padding: 20px;
-        font-size: 1.5rem;
-    }
-   
-    #stars {
-        margin-left: 75px;
     }
     
-    .search-bar {
-        display: flex;
-        justify-content: end;
-        top: -200px;
-        padding: 10px;
-        margin-left: 100px;
-        
-    }   
-    
-    .search-bar input {
-        display: flex;
-        justify-content: end;
-        align-content: center;
-        width: 60%;
-        height: 38px;
-        font-size: 1.25rem;
-        padding-left: 10px;
-        margin-right: 40px;
-        
-        
-    }   
-    
-    .fa-magnifying-glass {
-        display: flex;
-        justify-content: flex-end;
-        top: 0px;
-        left: 190px;
-        color:#c78c06;
-        padding: 7px;
-        margin-left: 0px;
-        border: 1px #c78c06 solid; 
-        font-size: 1.75rem;
-    }
-    
-
-    .team {
-        width: 85%;
-        margin: 0 auto;
-    }
-
-    h2.our-team {
-        margin-left: 100px;
-    }
-
     .our-services {
         height: 1400px;
         width: 90%;
     }
 
-
-    h3.team-names {
-        padding-top: 30px;
-    }
-
-    .contact-us {
-        width: 50%;
-    }
-
-.contact-info {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-    .location {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        width: 60%;
-        height: 500px;
-        top: -680px;
-        left: 435px;
-    }
-    
-    .location h3 {
-        position: relative;
-        top: -70px;
-        left: 125px;
-    }
-
-    #map {
-        height: 450px;
-        max-width: 70%;
-        
-    }
-
-    .footer-banner {
-        display: block;
-        position: relative;
-        top: 600px;
-    }
-
-    footer {
-        padding-left: 80px;
-    }
-
-    div.hours-of-op {
-        max-width: 85%;
-        height: 250px;
-        margin: 0 auto;
-    }
-
-
-
-    .our-vision {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-
-    
     .our-services .fa-caret-right {
         display: flex;
         justify-content: flex-start;
@@ -767,13 +646,106 @@ span {
         width: 87%;
     }
 
+    /* adjustments to "big button" caret icon positioning */
     #digital-caret, #marketing-caret {
         left: 310px;
     }
 
-    a:link {
-        text-decoration: none;
-        
+    /* parameters for "our vision" area adjustments */
+    .our-vision {
+        padding-left: 80px;
+        padding-right: 80px;
     }
 
+    /* defines areas for grid for "our team" area */
+    .wrapper-6 { grid-area: grid-6; }
+    .wrapper-7 { grid-area: grid-7; }
+    .wrapper-8 { grid-area: grid-8; }
+    .wrapper-9 { grid-area: grid-9; }
+
+    .team {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    h2.our-team {
+        margin-left: 100px;
+    }
+
+    h3.team-names {
+        padding-top: 30px;
+    }
+
+    /* parameters and grid layout for "our team" area */
+     .team {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "grid-6 grid-6 grid-7 grid-7"
+        "grid-6 grid-6 grid-7 grid-7"
+        "grid-9 grid-9 grid-8 grid-8"
+        "grid-9 grid-9 grid-8 grid-8"
+    }
+
+    .wrapper-6, .wrapper-7, .wrapper-8, .wrapper-9 {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+    }
   
+    .wrapper-7, .wrapper-9 {
+        padding-right: 25px;
+    }
+    
+    /* parameters for "contact us" area adjustments */
+    .contact-us {
+        width: 50%;
+    }
+
+    .contact-info {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* parameters for "location" area adjustments */
+    .location {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 60%;
+        height: 500px;
+        top: -680px;
+        left: 435px;
+    }
+    
+    .location h3 {
+        position: relative;
+        top: -70px;
+        left: 125px;
+    }
+
+    #map {
+        height: 450px;
+        max-width: 70%;
+    }
+
+    /* parameters for "hours of op" area adjustments */
+    div.hours-of-op {
+        max-width: 85%;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    /* parameters for footer area adjustments */
+    .footer-banner {
+        display: block;
+        position: relative;
+        top: 600px;
+    }
+
+    footer {
+        padding-left: 80px;
+    }
+}
