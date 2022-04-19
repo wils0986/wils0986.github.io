@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final Project - wils0986</title>
-    <link href="css/reset.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/71d7f4f2d7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <!--the navigation links inside of the wrappers which determine their sizing-->
-    <div class="top-banner">
+    <!--classed for maximun width-->
+    <div class="dark-banner">
     <div class="wide-wrapper">
-        <!---A class of "respinsive images" for all images to enable adaptive enhancement-->
+        <!---A class of "responsive images" for all images to enable adaptive enhancement-->
             <img class="responsive-images" src="images/logo.png" alt="three stars" id="stars">
-            <div class="box-1"></div>
+            <div class="orange-box">
+            </div>
                 <nav>
                     <ul>
                         <li><a href="#" class="home">Home</a></li>
@@ -37,15 +37,17 @@
         </div>
     </div>
         <!--the Welcome section in a wrapper allowing max width for desired design-->
-        <div class="wide-wrapper">
+        
             <div class="welcome">
-                    <div class="grey-box">
-                        <!--class of "white text" to allow for desired font styling-->
+                <div class="grey-box">
+                    <!--class of "white text" to allow for desired font styling-->
                     <h1 class="white-text">Welcome to Three Star Media</h1>
                     <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, provident veniam. Cum et quasi magni cupiditate at perspiciatis debitis maiores recusandae. Libero assumenda ea nobis excepturi deleniti officia culpa vero!</p>
                     <a href="connectwithus" class="connect-with-us">Connect with us</a>
-                    <i class="fa-solid fa-caret-right" id="connect-caret"></i></div>
+                    <i class="fa-solid fa-caret-right" id="connect-caret"></i>
+                </div>
             </div>
+        
         <!--the About Us section with a class of "about us" to allow specific styling for desired desktop design-->
             <article class="about-us">
                 <img class="responsive-images" src="images/about-us.jpg" alt="a photo of a ping-pong table" id="ping-pong">
@@ -53,7 +55,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, provident veniam. Cum et quasi magni cupiditate at perspiciatise! Debitis laborum incidunt.</p>
                 <p>Debitis laborum incidunt aspernatur expedita deleniti similique dolores qui quibusdam. Sapiente itaque quasi temporibus modi magnam quam!</p>
             </article>
-            </div>
+            
         <!--the Our Services section utilizing classes for specific desktop styling-->
         <div class="narrow-wrapper">
         <h2 class="services">Our Services</h2>
@@ -109,14 +111,14 @@
             </div>
         </main> 
         </div>  
-        <!--the Our Vision section-->
+        <!--the Our Vision section classed for styling with a background image-->
         <aside class="our-vision">  
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis architecto sint facere corrupti aliquid sed sequi quia placeat. Quaerat illum distinctio sed, adipisci hic earum itaque! </p>
             <a href="learnmore" class="learn-more">Learn More</a>
             <i class="fa-solid fa-caret-right" id="learn-caret"></i>
         </aside>
-        <!---the Our Team section-->
+        <!---the Our Team section classed for styling "wrappers" individually-->
             <h2 class="our-team">Our Team</h2>
             <div class="team">
                 <img class="wrapper-6" src="images/john.jpg" alt="a headshot of John" id="john">
@@ -131,7 +133,7 @@
                     <h4>CFO and Co-owner</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam odio ab, sapiente dolor quae eaque fugit quisquam? Aut id voluptas magni exercitationem amet repudiandae voluptatibus corporis illum laudantium recusandae.</p></div>
             </div>
-        <!---the Contact Us section-->
+        <!---the Contact Us section classed for styling "wrappers" individually-->
         <div class="hours-of-op">
         <div class="contact-us">
         <div class="narrow-wrapper">
@@ -156,8 +158,7 @@
                 </form>
             </div>
         </div>    
-        <!---the Hours of operation table and map-->
-
+        <!---the Hours of operation table and Google map classed for individual styling of elements-->
                 <h3>Hours of operation</h3>
                     <table>
                         <tr>
@@ -178,10 +179,11 @@
                 <iframe class="responsive-images" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2871239.4010873!2d-75.754937!3d45.349928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1648847873453!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
             </div>
         </div>
-        <!---the footer section-->
+        <!---the footer section classed for maximum width-->
     <div class="footer-banner">
     <div class="wide-wrapper">
         <footer>
+            <!--span provides a target to underline -->
             <h5>© Copyright Three Star Media, 2020.</h5> 
             <h6>All images are taken from <span>Unsplash</span></h6>
         </footer>
