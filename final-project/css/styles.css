@@ -516,7 +516,7 @@ span {
         display: flex;
         flex-direction: row;
         justify-content: start;
-        position: absolute;
+        position: absolute; /* I tried to change this but I was not able to re-style the nav properly */
         left: 250px;
         top: 120px;
         margin-left: 0px;
